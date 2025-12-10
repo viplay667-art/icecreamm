@@ -1,0 +1,28 @@
+<h1>Welcome to Frosty Scoop Ice Cream</h1>
+<p>Handmade ice cream with fresh ingredients and happy smiles. Discover our flavors and special seasonal scoops!</p>
+<h2>About Frosty Scoop</h2>
+<p>We started with a small cart and a big love for ice cream. We make small-batch flavors every morning with local ingredients.</p>
+ <hr>
+
+<h1 style="font-size:50px; text-align:center;"> Our core flavours</h1>
+
+<img style="width: 33%;" src="ice06.jpg">
+<img style="width: 33%;" src="ice09.jpg">
+<img style="width: 33%;" src="ice08.jpg">
+<h2>Find Your Ice Cream Flavor!</h2>
+<button onclick="pickFlavor()">Click here</button>
+
+<script>
+function pickFlavor() {
+  const flavors = ["Vanilla", "Chocolate", "Strawberry", "Matcha", "Caramel"];
+  const name = prompt("What is your name?");
+  const choice = flavors[Math.floor(Math.random() * flavors.length)];
+  alert("Hi " + name + "! You should try: " + choice + " 🍨");
+}
+</script>
+<footer>
+  <p>Created by: Mi Myo Eaindrae San – 25224537 </p>
+<p><strong>Original template:</strong> 
+<a href="https://freewebsitetemplates.com">Click here</a></p>
+
+</footer>
